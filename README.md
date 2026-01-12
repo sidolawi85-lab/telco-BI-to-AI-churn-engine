@@ -1,3 +1,5 @@
+![Project Cover](assets/thumbnails/project_cover.png)
+
 # Telco BI → AI Churn Engine
 ### Turning churn insights into autonomous AI actions that protect recurring revenue
 
@@ -5,21 +7,27 @@
 
 ## 🚀 Project Overview
 
-This project demonstrates the transition from **traditional Business Intelligence (BI)** to a **production-ready AI-driven churn prevention system** for a telecommunications provider.
+This project demonstrates the **transition from traditional Business Intelligence (BI) dashboards to production-ready AI automation** for a telecommunications provider.  
 
-Instead of stopping at dashboards and insights, the project operationalizes analytics into **automated decision-making workflows** that proactively retain customers, stabilize Monthly Recurring Revenue (MRR), and reduce manual customer success effort.
+Instead of stopping at insights, this system **acts on churn risks automatically**, stabilizing Monthly Recurring Revenue (MRR) and improving customer retention while reducing manual effort.
 
 ---
 
-## 📊 Executive Summary
+## 📊 Dashboard Highlights
 
-- **Overall Churn Rate:** 26.5%
-- **Key Risk Patterns Identified:**
-  - Early-stage **6-Month Churn Cliff**
-  - High churn concentration among **Month-to-Month contracts**
-  - **High-ARPU Fiber Optic customers** with a 66% churn risk
+### Churn Overview
+![Churn Overview](dashboard/dashboard_images/churn_overview.png)
+*Shows overall churn trends and the “6-Month Churn Cliff” where early cancellations spike.*
 
-The system converts these insights into **AI-powered automations** that intervene before churn occurs.
+### Contract Churn
+![Contract Churn](dashboard/dashboard_images/contract_churn.png)
+*Highlights Month-to-Month subscribers as the highest churn risk segment.*
+
+### Fiber Churn
+![Fiber Churn](dashboard/dashboard_images/fiber_churn.png)
+*Reveals high-ARPU Fiber Optic customers at risk despite premium plans.*
+
+> **Key Insight:** Early churn, unstable contracts, and high-value fiber users are the three biggest threats to recurring revenue.
 
 ---
 
@@ -27,93 +35,85 @@ The system converts these insights into **AI-powered automations** that interven
 
 ### 1️⃣ Early-Stage “Churn Cliff”
 
-**Problem**  
-A sharp spike in cancellations occurs within the first six months of the customer lifecycle, driven by poor onboarding and weak value realization.
+**Problem:**  
+Sharp spike in cancellations within the first six months of customer tenure.
 
-**AI Solution — Customer Lifecycle Retention System**
-- Classifies customers into *Onboarding* and *Value Discovery* phases
-- Automatically triggers lifecycle-specific educational and value reinforcement messages
+**AI Solution — Customer Lifecycle Retention System**  
+- Classifies customers into *Onboarding* (0–90 days) and *Value Discovery* (91–180 days) phases  
+- Sends automated, AI-generated emails and notifications to educate and activate users
 
-**Business Impact**
-- Improves customer activation
-- Reduces avoidable early churn
-- Scales retention without increasing manual workload
+![Customer Lifecycle Automation](architecture/automation_architecture.png)
+*Automation monitors new joiners and triggers retention actions automatically.*
+
+**Impact:** Reduces early churn while scaling customer success operations.
 
 ---
 
 ### 2️⃣ Month-to-Month Contract Vulnerability
 
-**Problem**  
-Month-to-Month subscribers represent the highest churn risk, creating unstable MRR.
+**Problem:**  
+Month-to-Month contracts are high-risk, creating unstable MRR.
 
-**AI Solution — Contract Stability Engine**
-- Segments customers into **Gold / Silver / Bronze** tiers using spend and loyalty logic
-- Uses generative AI to deliver personalized, non-aggressive upgrade offers
-- Incentivizes long-term commitments through price locks and tailored benefits
+**AI Solution — Contract Stability Engine**  
+- Segments users into **Gold / Silver / Bronze** tiers based on spend and loyalty  
+- Uses AI to generate personalized upgrade offers with price locks or long-term benefits
 
-**Business Impact**
-- Protects an estimated **15–20% of MRR**
-- Replaces thousands of manual outreach actions with automated workflows
-- Converts passive users into committed customers
+![BI to AI Flow](architecture/bi_to_ai_flow.png)
+*Workflow showing how BI insights are transformed into AI-driven contract interventions.*
+
+**Impact:** Protects 15–20% of MRR and replaces thousands of manual outreach tasks.
 
 ---
 
 ### 3️⃣ High-Value Fiber Optic Churn
 
-**Problem**  
-Fiber Optic customers generate the highest ARPU yet show a **66% churn risk**, indicating service quality and experience gaps.
+**Problem:**  
+Fiber users generate the highest revenue but show a **66% churn risk**, indicating service quality gaps.
 
-**AI Solution — Fiber Experience Sentinel**
-- Detects *silent churners* before complaints are raised
-- Segments users by tenure and satisfaction score
-- Triggers proactive diagnostics or white-glove escalation
+**AI Solution — Fiber Experience Sentinel**  
+- Detects “silent churners” before complaints arise  
+- Tenured users receive automated diagnostics  
+- New users get escalated to white-glove manual intervention
 
-**Business Impact**
-- Reduces manual Customer Success workload by **~80%**
-- Prevents high-value revenue loss before customers defect
-- Improves perceived service quality for premium users
+![Fiber Experience Sentinel](architecture/automation_architecture.png)
+*AI triggers proactive support actions to prevent high-value customer churn.*
+
+**Impact:** Reduces manual workload by 80% and prevents revenue loss.
 
 ---
 
-## 🧠 System Architecture (Conceptual)
+## 🧠 System Architecture
 
-1. **BI Layer**
-   - SQL-based churn analysis
-   - Customer segmentation & risk scoring
-2. **Decision Logic Layer**
-   - JavaScript rules for eligibility, prioritization, and tiering
-3. **AI Layer**
-   - Gemini AI for personalized communication and action recommendations
-4. **Automation Layer**
-   - Orchestrated workflows triggering emails, diagnostics, and escalations
+1. **BI Layer:** SQL-based churn analysis and segmentation  
+2. **Decision Logic Layer:** Customer tiering and eligibility rules (JS logic)  
+3. **AI Layer:** Gemini AI generates personalized communications  
+4. **Automation Layer:** Orchestrated workflows trigger emails, diagnostics, and escalations  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- SQL & BI Dashboards
-- JavaScript (Automation Logic)
-- Gemini AI (Generative Decision Support)
-- Workflow Automation (n8n-style orchestration)
-- Markdown-based documentation for reproducibility
+- SQL & BI dashboards  
+- JavaScript (Automation logic)  
+- Gemini AI (Generative Decision Support)  
+- n8n-style workflow orchestration  
+- Markdown documentation for reproducibility  
 
 ---
 
 ## 🎯 Why This Project Matters
 
-Most BI projects stop at **insight delivery**.  
-This project demonstrates how analytics can be **directly embedded into AI systems** that:
+Most BI projects stop at insights. This project **acts on insights autonomously**, bridging the gap between **reporting → execution**. It’s a portfolio-ready example of:
 
-- Act autonomously
-- Scale decision-making
-- Protect revenue in real time
-
-It reflects a shift from **reporting → execution**.
+- Analytics → automated action  
+- Revenue protection through AI  
+- Scalable customer retention strategies  
 
 ---
 
 ## 📌 Author
 
 **Sydney Lawi**  
-AI Automation • Business Intelligence • Marketing Intelligence  
+AI Automation • Business Intelligence • Marketing Intelligence
+
 
