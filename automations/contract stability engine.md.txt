@@ -1,0 +1,42 @@
+# Contract Stability Engine
+
+## Purpose
+Stabilize Monthly Recurring Revenue (MRR) by converting high-risk Month-to-Month customers into longer-term contracts.
+
+---
+
+## Trigger Conditions
+- Customer contract type = Month-to-Month
+- Account active
+- No downgrade request in last 30 days
+
+---
+
+## Segmentation Logic
+Customers are tiered using spend and tenure:
+
+- **Gold:** High spend + long tenure
+- **Silver:** Moderate spend or tenure
+- **Bronze:** Low spend + short tenure
+
+---
+
+## AI Actions
+- Gemini AI generates personalized, non-aggressive offers:
+  - Gold: price lock + premium support
+  - Silver: discounted annual plan
+  - Bronze: flexible hybrid commitment
+
+---
+
+## Automation Outputs
+- Tailored contract upgrade email
+- Offer validity window
+- CRM tag update for follow-up tracking
+
+---
+
+## Business Impact
+- Protects 15–20% of MRR
+- Replaces thousands of manual outreach actions
+- Reduces silent churn from non-contracted users

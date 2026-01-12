@@ -1,0 +1,41 @@
+# Fiber Experience Sentinel
+
+## Purpose
+Prevent churn among high-ARPU Fiber Optic customers by identifying and resolving service quality issues before complaints arise.
+
+---
+
+## Trigger Conditions
+- Service type = Fiber Optic
+- Satisfaction score ≤ 3/10
+- No open support ticket
+
+---
+
+## Segmentation Logic
+- **New Fiber Users:** tenure ≤ 90 days
+- **Tenured Fiber Users:** tenure > 90 days
+
+---
+
+## AI Actions
+- Tenured users:
+  - Gemini AI schedules proactive diagnostics
+  - Personalized reassurance messaging
+- New users:
+  - Escalation to white-glove manual review
+  - Priority onboarding intervention
+
+---
+
+## Automation Outputs
+- Diagnostic task creation
+- Proactive customer communication
+- Risk status logged for churn monitoring
+
+---
+
+## Business Impact
+- Reduces Customer Success workload by ~80%
+- Protects high-ARPU revenue
+- Improves perceived service reliability

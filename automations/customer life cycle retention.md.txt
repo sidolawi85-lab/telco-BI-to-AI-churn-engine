@@ -1,0 +1,42 @@
+# Customer Lifecycle Retention System
+
+## Purpose
+Reduce early-stage churn by proactively supporting customers during the most fragile period of the lifecycle (0–6 months).
+
+---
+
+## Trigger Conditions
+- New customer created OR
+- Daily scan of active customers with tenure ≤ 180 days
+
+---
+
+## Core Logic
+1. Calculate customer tenure in days
+2. Assign lifecycle phase:
+   - **Onboarding:** 0–90 days
+   - **Value Discovery:** 91–180 days
+3. Exclude customers with:
+   - Open support tickets
+   - Recent retention interaction (<14 days)
+
+---
+
+## AI Actions
+- Generate phase-specific messaging using Gemini AI:
+  - Onboarding: feature education, setup tips, activation nudges
+  - Value Discovery: use-case reinforcement, value realization examples
+
+---
+
+## Automation Outputs
+- Personalized lifecycle email
+- Optional SMS or in-app notification
+- Interaction logged for future suppression logic
+
+---
+
+## Business Impact
+- Increases early activation rates
+- Reduces avoidable churn during the 6-month “churn cliff”
+- Scales customer success without additional headcount
