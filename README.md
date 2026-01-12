@@ -42,7 +42,7 @@ Sharp spike in cancellations within the first six months of customer tenure.
 - Classifies customers into *Onboarding* (0–90 days) and *Value Discovery* (91–180 days) phases  
 - Sends automated, AI-generated emails and notifications to educate and activate users
 
-![Customer Lifecycle Automation](architecture/automation_architecture.png)
+![Customer Lifecycle Automation](https://github.com/sidolawi85-lab/telco-BI-to-AI-churn-engine/blob/main/automations/Customer%20Lifecycle%20Retention%20System.png)
 *Automation monitors new joiners and triggers retention actions automatically.*
 
 **Impact:** Reduces early churn while scaling customer success operations.
