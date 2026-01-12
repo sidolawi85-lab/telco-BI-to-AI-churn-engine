@@ -31,14 +31,14 @@ Instead of stopping at insights, this system **acts on churn risks automatically
 
 ---
 
-## 🔍 Business Problems & AI Solutions
+## 🔍 Business Problems & AI Automation Solutions
 
 ### 1️⃣ Early-Stage “Churn Cliff”
 
 **Problem:**  
 Sharp spike in cancellations within the first six months of customer tenure.
 
-**AI Solution — Customer Lifecycle Retention System**  
+**AI Automation Solution — Customer Lifecycle Retention System**  
 - Classifies customers into *Onboarding* (0–90 days) and *Value Discovery* (91–180 days) phases  
 - Sends automated, AI-generated emails and notifications to educate and activate users
 
@@ -54,7 +54,7 @@ Sharp spike in cancellations within the first six months of customer tenure.
 **Problem:**  
 Month-to-Month contracts are high-risk, creating unstable MRR.
 
-**AI Solution — Contract Stability Engine**  
+**AI Automation Solution — Contract Stability Engine**  
 - Segments users into **Gold / Silver / Bronze** tiers based on spend and loyalty  
 - Uses AI to generate personalized upgrade offers with price locks or long-term benefits
 
@@ -70,7 +70,7 @@ Month-to-Month contracts are high-risk, creating unstable MRR.
 **Problem:**  
 Fiber users generate the highest revenue but show a **66% churn risk**, indicating service quality gaps.
 
-**AI Solution — Fiber Experience Sentinel**  
+**AI Automation Solution — Fiber Experience Sentinel**  
 - Detects “silent churners” before complaints arise  
 - Tenured users receive automated diagnostics  
 - New users get escalated to white-glove manual intervention
@@ -88,6 +88,23 @@ Fiber users generate the highest revenue but show a **66% churn risk**, indicati
 2. **Decision Logic Layer:** Customer tiering and eligibility rules (JS logic)  
 3. **AI Layer:** Gemini AI generates personalized communications  
 4. **Automation Layer:** Orchestrated workflows trigger emails, diagnostics, and escalations
+
+### 🛠️ Technical Implementation & Orchestration
+This system is built on a modular **BI-to-AI Pipeline**, utilizing self-hosted infrastructure for data sovereignty and cost-efficiency.
+
+**Infrastructure Stack:**
+* **Engine:** n8n (Self-hosted via Docker on local server)
+* **Intelligence:** Multi-LLM Orchestration (Logic proprietary)
+* **Data Layer:** Power BI Desktop + PostgreSQL/Excel
+* **Interface:** WhatsApp Cloud API / SMTP Secure Relay
+
+**Logic Flow (Encapsulated):**
+1.  **Ingestion Phase:** Daily extraction of 'Churn-Risk' segments from Power BI.
+2.  **Validation Phase (Proprietary Logic):** The data passes through a multi-stage "Guardrail Gate" that checks for 12+ business constraints before proceeding. 
+3.  **Synthesis Phase:** AI-driven context generation based on customer history (OpenAI/Claude via API).
+4.  **Action Phase:** Secure transmission of retention offers via the designated communication channel.
+
+> **Note on Proprietary Nodes:** Detailed node configurations and custom JavaScript snippets are withheld to protect intellectual property. Demonstrations of the workflow logic can be provided during the interview process or upon formal request for a live sandbox review.
 
  ### 🛡️ Operational Guardrails (The Bouncer Logic)
 Unlike standard bots, this system is 'Safe-to-Scale.' It uses 5 critical data gates 
