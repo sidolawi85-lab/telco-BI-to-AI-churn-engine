@@ -1,6 +1,6 @@
 ![Project Cover](https://github.com/sidolawi85-lab/telco-BI-to-AI-churn-engine/blob/main/assets/thumbnails/Digital%20transformation%20in%20telco%20analytics.png)
 
-# Telco BI → AI Churn Engine
+# Revenue-Stabilization-System: Protecting Ksh 456K MRR via BI + AI Automation
 ### Turning churn insights into autonomous AI actions that protect recurring revenue
 
 ---
