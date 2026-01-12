@@ -96,6 +96,12 @@ before triggering an intervention:
 - **Open Ticket Check:** Blocks automation if a technical issue is currently active (AZ Column).
 - **Control Group:** Reserves 10% of users to measure true ROI/Lift.
 
+graph LR
+    A[Power BI Dashboard] --> B{n8n Logic Gate}
+    B -->|High Risk| C[OpenAI Personalization]
+    B -->|Active Ticket| D[Pause Automation]
+    C --> E[WhatsApp/Email Action]
+
 ---
 
 ## 🛠️ Tech Stack
