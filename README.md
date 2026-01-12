@@ -96,12 +96,30 @@ before triggering an intervention:
 - **Open Ticket Check:** Blocks automation if a technical issue is currently active (AZ Column).
 - **Control Group:** Reserves 10% of users to measure true ROI/Lift.
 
-graph LR
-    A[Power BI Dashboard] --> B{n8n Logic Gate}
-    B -->|High Risk| C[OpenAI Personalization]
-    B -->|Active Ticket| D[Pause Automation]
-    C --> E[WhatsApp/Email Action]
+## 💼 Business Case & Strategic Acumen
 
+### 1. The Problem: The "6-Month Churn Cliff"
+In the Kenyan fiber market, we observed a significant "revenue leak" at the 6-month mark. High-value customers on month-to-month contracts often churn due to:
+* **Service Quality Gaps:** Unresolved technical issues leading to "silent frustration."
+* **Market Competition:** Lured away by "new customer" discounts from competitors.
+* **The "Commitment Gap":** Lack of incentive for long-term loyalty.
+
+### 2. The Financial Stakes (Ksh 456,000 New MRR)
+This project is designed to protect a projected **Ksh 456,000 in Monthly Recurring Revenue (MRR)**. 
+* **Customer Acquisition Cost (CAC):** It costs 5–7x more to acquire a new fiber subscriber in Nairobi than to retain an existing one.
+* **Lifetime Value (LTV) Goal:** By shifting high-risk users to 1-year contracts, we increase the guaranteed LTV per user by an average of **Ksh 4,400**.
+
+### 3. The "Strategy-First" Solution (BI to AI)
+Instead of a "spray and pray" marketing approach, I built a **Closed-Loop Retention System**:
+1. **Diagnosis (BI):** Power BI identifies the "At-Risk" segment based on usage drops and billing patterns.
+2. **The "Bouncer" Logic:** A unique set of **Operational Guardrails** (CSAT scores, Open Tickets, and Usage Trends) ensures we only offer contracts to *happy* customers.
+3. **Automated Action (AI):** n8n triggers personalized, high-context offers only when the "Gatekeeper" logic is satisfied.
+
+### 4. Key Performance Indicators (KPIs)
+The success of this system is measured by:
+* **Churn Rate Reduction:** Aiming for a 5% drop in the 6-month cliff segment.
+* **Contract Conversion Rate:** Tracking the % of month-to-month users shifting to 1-year plans.
+* **Service Recovery Speed:** Measuring the time from "Ticket Close" to "Retention Offer" trigger.
 ---
 
 ## 🛠️ Tech Stack
