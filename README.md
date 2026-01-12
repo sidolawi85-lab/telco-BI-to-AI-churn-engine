@@ -87,7 +87,14 @@ Fiber users generate the highest revenue but show a **66% churn risk**, indicati
 1. **BI Layer:** SQL-based churn analysis and segmentation  
 2. **Decision Logic Layer:** Customer tiering and eligibility rules (JS logic)  
 3. **AI Layer:** Gemini AI generates personalized communications  
-4. **Automation Layer:** Orchestrated workflows trigger emails, diagnostics, and escalations  
+4. **Automation Layer:** Orchestrated workflows trigger emails, diagnostics, and escalations
+
+ ### 🛡️ Operational Guardrails (The Bouncer Logic)
+Unlike standard bots, this system is 'Safe-to-Scale.' It uses 5 critical data gates 
+before triggering an intervention:
+- **CSAT Filter:** Only engages users with scores < 7.
+- **Open Ticket Check:** Blocks automation if a technical issue is currently active (AZ Column).
+- **Control Group:** Reserves 10% of users to measure true ROI/Lift.
 
 ---
 
