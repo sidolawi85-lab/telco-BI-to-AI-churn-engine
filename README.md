@@ -75,7 +75,7 @@ Fiber users generate the highest revenue but show a **66% churn risk**, indicati
 - Tenured users receive automated diagnostics  
 - New users get escalated to white-glove manual intervention
 
-![Fiber Experience Sentinel](architecture/automation_architecture.png)
+![Fiber Experience Sentinel](https://github.com/sidolawi85-lab/telco-BI-to-AI-churn-engine/blob/main/automations/Fiber%20Experience%20Sentinel.png)
 *AI triggers proactive support actions to prevent high-value customer churn.*
 
 **Impact:** Reduces manual workload by 80% and prevents revenue loss.
