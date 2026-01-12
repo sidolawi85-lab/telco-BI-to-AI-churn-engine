@@ -16,7 +16,7 @@ Instead of stopping at insights, this system **acts on churn risks automatically
 ## 📊 Dashboard Highlights
 
 ### Churn Overview
-![Churn Overview](dashboard/dashboard_images/churn_overview.png)
+![Churn Overview](https://github.com/sidolawi85-lab/telco-BI-to-AI-churn-engine/blob/main/dashboard/dashboard_images/Telco%20project%20executive%20summary.png)
 *Shows overall churn trends and the “6-Month Churn Cliff” where early cancellations spike.*
 
 ### Contract Churn
