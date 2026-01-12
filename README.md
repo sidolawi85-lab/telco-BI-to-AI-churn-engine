@@ -58,7 +58,7 @@ Month-to-Month contracts are high-risk, creating unstable MRR.
 - Segments users into **Gold / Silver / Bronze** tiers based on spend and loyalty  
 - Uses AI to generate personalized upgrade offers with price locks or long-term benefits
 
-![BI to AI Flow](architecture/bi_to_ai_flow.png)
+![BI to AI Flow](https://github.com/sidolawi85-lab/telco-BI-to-AI-churn-engine/blob/main/automations/Contract%20Stability%20Engine.png)
 *Workflow showing how BI insights are transformed into AI-driven contract interventions.*
 
 **Impact:** Protects 15–20% of MRR and replaces thousands of manual outreach tasks.
