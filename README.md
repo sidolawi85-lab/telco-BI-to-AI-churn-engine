@@ -24,7 +24,7 @@ Instead of stopping at insights, this system **acts on churn risks automatically
 *Highlights Month-to-Month subscribers as the highest churn risk segment.*
 
 ### Fiber Churn
-![Fiber Churn](dashboard/dashboard_images/fiber_churn.png)
+![Fiber Churn](https://github.com/sidolawi85-lab/telco-BI-to-AI-churn-engine/blob/main/dashboard/dashboard_images/dashboard-retention.png)
 *Reveals high-ARPU Fiber Optic customers at risk despite premium plans.*
 
 > **Key Insight:** Early churn, unstable contracts, and high-value fiber users are the three biggest threats to recurring revenue.
