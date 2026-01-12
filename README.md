@@ -20,7 +20,7 @@ Instead of stopping at insights, this system **acts on churn risks automatically
 *Shows overall churn trends and the “6-Month Churn Cliff” where early cancellations spike.*
 
 ### Contract Churn
-![Contract Churn](dashboard/dashboard_images/contract_churn.png)
+![Contract Churn](https://github.com/sidolawi85-lab/telco-BI-to-AI-churn-engine/blob/main/dashboard/dashboard_images/dashboard-growth.png)
 *Highlights Month-to-Month subscribers as the highest churn risk segment.*
 
 ### Fiber Churn
